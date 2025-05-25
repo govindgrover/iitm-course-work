@@ -2,9 +2,8 @@ name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: workflow_dispatch
 jobs:
-  demo-jjoob:
-    runs-on: ubuntu-lates
+  demo-job:
+    runs-on: ubuntu-latest
     steps:
-      - name: 22f3000486@ds.study.iitm.ac.in
+      - name: Print Hello World
         run: echo "Hello, world!"
-        
