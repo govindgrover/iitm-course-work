@@ -1,0 +1,10 @@
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push]
+jobs:
+  demo-jjoob:
+    runs-on: ubuntu-lates
+    steps:
+      - name: 22f3000486@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+        
